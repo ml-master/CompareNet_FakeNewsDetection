@@ -1,0 +1,126 @@
+TimeStamp: 0708_1849
+ {
+  "root": "./data/fakeNews/",
+  "train": "./data/gossipcop_v3_origin.json",
+  "dev": "./data/fakeNews/balancedtest.csv",
+  "test": "./data/fakeNews/test.xlsx",
+  "pte": "",
+  "entity_desc": "./data/fakeNews/entityDescCorpus.pkl",
+  "entity_tran": "./data/fakeNews/entity_feature_transE.pkl",
+  "adjs": "./data/fakeNews/adjs/",
+  "emb_dim": 100,
+  "hidden_dim": 100,
+  "node_emb_dim": 32,
+  "max_epochs": 15,
+  "max_sent_len": 50,
+  "max_sents_in_a_doc": 10000,
+  "batch_size": 32,
+  "lr": 0.001,
+  "dropout": 0.5,
+  "ntags": 4,
+  "weight_decay": 1e-06,
+  "pooling": "max",
+  "model_file": "model_CompareNet_Max_DET_0708_1849.t7",
+  "plot": 0,
+  "mode": 0,
+  "cuda": true,
+  "device": 0,
+  "HALF": true,
+  "DEBUG": false,
+  "node_type": 3,
+  "repeat": 1,
+  "seed": [
+    5
+  ],
+  "config": "CompareNet_Max_DET_0708_1849"
+}
+Loading adj:  ./data/fakeNews/adjs//
+Loading ./data/fakeNews/adjs//train/
+Preprocessing ./data/fakeNews/adjs//train/
+removed_idx of ./data/fakeNews/fulltrain.csv: 222
+Average train document length: 12.46952988972722
+Maximum train document length: 82
+Loading ./data/fakeNews/adjs//test/
+Preprocessing ./data/fakeNews/adjs//test/
+removed_idx of ./data/fakeNews/test.xlsx: []
+Loading ./data/fakeNews/adjs//dev/
+Preprocessing ./data/fakeNews/adjs//dev/
+removed_idx of ./data/fakeNews/balancedtest.csv: 48
+PreCost: 0:01:53
+
+
+
+--------------------------- Repeat: 0 ---------------------------
+
+
+
+---------------------------  Seed: 5  ---------------------------
+-----------CompareNet_Max_DET_0708_1849-------------
+Times of out of memory:  0
+Epoch: 1, Train loss: 0.8531, Train acc: 0.8924, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 2, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 3, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 4, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 5, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 6, Train loss: 0.8498, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 7, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 8, Train loss: 0.8498, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 9, Train loss: 0.8498, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 10, Train loss: 0.8498, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 11, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 12, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 13, Train loss: 0.8497, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 14, Train loss: 0.8499, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+Times of out of memory:  0
+Epoch: 15, Train loss: 0.8496, Train acc: 0.8939, Dev loss: 0.8575, Dev acc: 0.8862
+-----------------------------------------
+{'data_loading': 113.32128034578636, 'CompareNet_Max_DET_0708_1849': 510.22284511709586}
+Total time taken (in seconds): 626.2517375769094
+{
+  "root": "./data/fakeNews/",
+  "train": "./data/fakeNews/fulltrain.csv",
+  "dev": "./data/fakeNews/balancedtest.csv",
+  "test": "./data/fakeNews/test.xlsx",
+  "pte": "",
+  "entity_desc": "./data/fakeNews/entityDescCorpus.pkl",
+  "entity_tran": "./data/fakeNews/entity_feature_transE.pkl",
+  "adjs": "./data/fakeNews/adjs/",
+  "emb_dim": 100,
+  "hidden_dim": 100,
+  "node_emb_dim": 32,
+  "max_epochs": 15,
+  "max_sent_len": 50,
+  "max_sents_in_a_doc": 10000,
+  "batch_size": 32,
+  "lr": 0.001,
+  "dropout": 0.5,
+  "ntags": 4,
+  "weight_decay": 1e-06,
+  "pooling": "max",
+  "model_file": "model_CompareNet_Max_DET_0620_1810.t7",
+  "plot": 0,
+  "mode": 0,
+  "cuda": true,
+  "device": 0,
+  "HALF": true,
+  "DEBUG": false,
+  "node_type": 3,
+  "repeat": 1,
+  "seed": [
+    5
+  ],
+  "config": "CompareNet_Max_DET_0708_1849"
+}

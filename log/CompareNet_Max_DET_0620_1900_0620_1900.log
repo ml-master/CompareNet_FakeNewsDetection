@@ -1,0 +1,38 @@
+TimeStamp: 0620_1900
+ {
+  "root": "./data/fakeNews/",
+  "train": "./data/fakeNews/fulltrain.csv",
+  "dev": "./data/fakeNews/balancedtest.csv",
+  "test": "./data/fakeNews/test.xlsx",
+  "pte": "",
+  "entity_desc": "./data/fakeNews/entityDescCorpus.pkl",
+  "entity_tran": "./data/fakeNews/entity_feature_transE.pkl",
+  "adjs": "./data/fakeNews/adjs/",
+  "emb_dim": 100,
+  "hidden_dim": 100,
+  "node_emb_dim": 32,
+  "max_epochs": 15,
+  "max_sent_len": 50,
+  "max_sents_in_a_doc": 10000,
+  "batch_size": 32,
+  "lr": 0.001,
+  "dropout": 0.5,
+  "ntags": 4,
+  "weight_decay": 1e-06,
+  "pooling": "max",
+  "model_file": "model_CompareNet_Max_DET_0620_1900.t7",
+  "plot": 0,
+  "mode": 0,
+  "cuda": true,
+  "device": 0,
+  "HALF": true,
+  "DEBUG": false,
+  "node_type": 3,
+  "repeat": 1,
+  "seed": [
+    5
+  ],
+  "config": "CompareNet_Max_DET_0620_1900"
+}
+Loading adj:  ./data/fakeNews/adjs//
+Loading ./data/fakeNews/adjs//train/

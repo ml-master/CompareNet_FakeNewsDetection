@@ -1,0 +1,98 @@
+TimeStamp: 0621_1518
+ {
+  "root": "./data/fakeNews/",
+  "train": "./data/gossipcop_v3_origin.json",
+  "dev": "./data/fakeNews/balancedtest.csv",
+  "test": "./data/fakeNews/test.xlsx",
+  "pte": "",
+  "entity_desc": "./data/fakeNews/entityDescCorpus.pkl",
+  "entity_tran": "./data/fakeNews/entity_feature_transE.pkl",
+  "adjs": "./data/fakeNews/adjs/",
+  "emb_dim": 100,
+  "hidden_dim": 100,
+  "node_emb_dim": 32,
+  "max_epochs": 15,
+  "max_sent_len": 50,
+  "max_sents_in_a_doc": 10000,
+  "batch_size": 32,
+  "lr": 0.001,
+  "dropout": 0.5,
+  "ntags": 4,
+  "weight_decay": 1e-06,
+  "pooling": "max",
+  "model_file": "model_CompareNet_Max_DET_0621_1518.t7",
+  "plot": 0,
+  "mode": 0,
+  "cuda": true,
+  "device": 0,
+  "HALF": true,
+  "DEBUG": false,
+  "node_type": 3,
+  "repeat": 1,
+  "seed": [
+    5
+  ],
+  "config": "CompareNet_Max_DET_0621_1518"
+}
+Loading adj:  ./data/fakeNews/adjs//
+Loading ./data/fakeNews/adjs//train/
+Preprocessing ./data/fakeNews/adjs//train/
+removed_idx of ./data/gossipcop_v3_origin.json: 122
+Average train document length: 6.514388489208633
+Maximum train document length: 37
+Loading ./data/fakeNews/adjs//test/
+Preprocessing ./data/fakeNews/adjs//test/
+removed_idx of ./data/fakeNews/test.xlsx: []
+Loading ./data/fakeNews/adjs//dev/
+Preprocessing ./data/fakeNews/adjs//dev/
+removed_idx of ./data/fakeNews/balancedtest.csv: 0
+PreCost: 0:00:07
+
+
+
+--------------------------- Repeat: 0 ---------------------------
+
+
+
+---------------------------  Seed: 5  ---------------------------
+{
+  "root": "./data/fakeNews/",
+  "train": "./data/gossipcop_v3_origin.json",
+  "dev": "./data/fakeNews/balancedtest.csv",
+  "test": "./data/fakeNews/test.xlsx",
+  "pte": "",
+  "entity_desc": "./data/fakeNews/entityDescCorpus.pkl",
+  "entity_tran": "./data/fakeNews/entity_feature_transE.pkl",
+  "adjs": "./data/fakeNews/adjs/",
+  "emb_dim": 100,
+  "hidden_dim": 100,
+  "node_emb_dim": 32,
+  "max_epochs": 15,
+  "max_sent_len": 50,
+  "max_sents_in_a_doc": 10000,
+  "batch_size": 32,
+  "lr": 0.001,
+  "dropout": 0.5,
+  "ntags": 4,
+  "weight_decay": 1e-06,
+  "pooling": "max",
+  "model_file": "model_CompareNet_Max_DET_0620_2219.t7",
+  "plot": 0,
+  "mode": 1,
+  "cuda": true,
+  "device": 0,
+  "HALF": true,
+  "DEBUG": true,
+  "node_type": 3,
+  "repeat": 1,
+  "seed": [
+    5
+  ],
+  "config": "CompareNet_Max_DET_0621_1518"
+}
+Accuracy on the OOD test set 2: 0.0000
+Precision on the OOD test set 2 macro / micro: 0.0000, 0.0000
+Recall on the OOD test set 2 macro / micro: 0.0000, 0.0000
+F1 on the OOD test set 2 macro / micro: 0.0000, 0.0000
+Latex:  0.00 &  0.00 &  0.00 &  0.00
+----------------------------------------------------------------------
